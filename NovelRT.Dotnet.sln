@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NovelRT.Interop", "NovelRT.Interop\NovelRT.Interop.csproj", "{50AD952F-F3A3-49EE-97B0-84FF10B1ED81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NovelRT", "NovelRT\NovelRT.csproj", "{8E8C30AE-5CC5-4900-9660-D20B4BD74276}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50AD952F-F3A3-49EE-97B0-84FF10B1ED81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50AD952F-F3A3-49EE-97B0-84FF10B1ED81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50AD952F-F3A3-49EE-97B0-84FF10B1ED81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50AD952F-F3A3-49EE-97B0-84FF10B1ED81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E8C30AE-5CC5-4900-9660-D20B4BD74276}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E8C30AE-5CC5-4900-9660-D20B4BD74276}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E8C30AE-5CC5-4900-9660-D20B4BD74276}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E8C30AE-5CC5-4900-9660-D20B4BD74276}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
